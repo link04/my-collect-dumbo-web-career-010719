@@ -8,4 +8,5 @@ def my_collect(array)
   else
     puts "Ooops no block given, but thats okay :)."
   end
+  array
 end
