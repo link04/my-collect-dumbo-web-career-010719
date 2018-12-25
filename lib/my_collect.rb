@@ -4,10 +4,9 @@ def my_collect(array)
     array2 = []
     while i < array.length
       array2 << yield array[i]
-    
       i += 1
     end
-    array
+    array2
   else
     puts "Ooops no block given, but thats okay :)."
   end
