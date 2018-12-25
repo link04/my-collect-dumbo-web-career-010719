@@ -5,8 +5,9 @@ def my_collect(array)
       yield array[i]
       i += 1
     end
+      array
   else
     puts "Ooops no block given, but thats okay :)."
   end
-  array
+
 end
